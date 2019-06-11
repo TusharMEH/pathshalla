@@ -35,7 +35,7 @@ def single_slug(request, single_slug):
                                "sidebar": tutorials_from_series,
                                "this_tut_idx": this_tutorial_idx})   
 
-    return HttpResponse(f"{single_slug} this is not a nothing")
+    return HttpResponse(f"{single_slug} this is a tutorial")
 
 def homepage(request):
 	return render(request,
